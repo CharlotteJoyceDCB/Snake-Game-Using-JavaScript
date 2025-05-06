@@ -5,7 +5,7 @@ const restartBtn = document.getElementById('restartBtn');
 const modal = document.getElementById('gameOverModal');
 
 const gridSize = 15;
-const containerSize = 500;
+const containerSize = 300;
 let snake = [{ x: 150, y: 150 }];
 let food = { x: 75, y: 75 };
 let dx = gridSize;
